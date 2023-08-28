@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* default css start */
+.container {
+    padding: 0px 240px 0px 240px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #272727;
+    font-weight: 800;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* default css end */
+
+
+
+.home-container {
+    display: flex;
+    background: rgba(229, 84, 115, 0.1);
+    height: 500px;
+    padding: 0px 130px 0px 240px;
+    gap: 97px;
+}
+
+.home-title {
+    padding: 112px 0px 105px;
+}
+
+.home-title h1 {
+    color: #272727;
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 13px;
+}
+
+.home-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+
+.btn-shop {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 14px 23px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.home-img {
+    height: 100%;
+    width: 350px;
+}
+
+/* flower-container css start */
+.flowers-container {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.flowers-card-group {
+    display: flex;
+    gap: 25px;
+}
+
+.flower-card {
+    height: 247px;
+    border-radius: 300px 300px 0px 0px;
+    background: #a7216226;
+    padding: 22px 23px 0px 38px;
+}
+
+.flower-card img {
+    width: 167px;
+    height: 100%;
+}
+
+.flower-card a {
+    display: inline-block;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+/* delivery-service css start */
+.delivery-service {
+    display: flex;
+    padding: 28px;
+    gap: 246px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.delivery-card {
+    text-align: center;
+}
+
+.delivery-description {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+/* delivery-service css end */
