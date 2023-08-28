@@ -131,6 +131,7 @@ p {
     gap: 215px;
     background: rgba(229, 84, 115, 0.05);
 }
+
 .sign-up-details {
     padding: 13% 0px 0px 6%;
     margin-top: 11px;
@@ -140,14 +141,44 @@ p {
 /* singUp css end */
 
 /* instagram css start */
-.instagram-container h1{
+.instagram-container h1 {
     margin-bottom: 24px;
 }
-.instagram-card-group{
+
+.instagram-card-group {
     display: flex;
     gap: 48px;
     margin-top: 48px;
 }
-.instagram-card img{
+
+.instagram-card img {
     width: 100%;
+}
+
+/* contract css  */
+.contract {
+    background: url('../Flower-Asset/Rectangle-9.png');
+    padding: 100px;
+}
+
+.submit-title {
+    margin-bottom: 48px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit input {
+    padding: 13px 82px 13px 0px;
+}
+
+.submit-btn {
+    width: 88px;
+    font-size: 19px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
 }
