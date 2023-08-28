@@ -12,12 +12,14 @@
 }
 
 h1 {
+    text-align: center;
     font-size: 40px;
     color: #272727;
     font-weight: 800;
 }
 
 p {
+    text-align: center;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -136,3 +138,16 @@ p {
 }
 
 /* singUp css end */
+
+/* instagram css start */
+.instagram-container h1{
+    margin-bottom: 24px;
+}
+.instagram-card-group{
+    display: flex;
+    gap: 48px;
+    margin-top: 48px;
+}
+.instagram-card img{
+    width: 100%;
+}
