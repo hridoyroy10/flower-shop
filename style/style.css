@@ -171,6 +171,9 @@ p {
 
 .submit input {
     padding: 13px 82px 13px 0px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
 .submit-btn {
@@ -181,4 +184,24 @@ p {
     border-radius: 8px;
     background: #E55473;
     color: #fff;
+}
+
+footer {
+    background: #111010;
+    padding: 100px;
+}
+
+footer p {
+    color: #c0c0c0e6;
+    font-size: 12px;
+}
+
+.footer-details h1 {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.bg-shop {
+    color: #ffffff;
 }
