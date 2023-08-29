@@ -137,7 +137,9 @@ p {
     margin-top: 11px;
     margin-bottom: 22px;
 }
-
+.hot-line{
+    color: #E55473;
+}
 /* singUp css end */
 
 /* instagram css start */
@@ -170,12 +172,11 @@ p {
 }
 
 .submit input {
-    padding: 13px 82px 13px 0px;
+    padding: 13px 82px 13px 12px;
     border: none;
     font-size: 16px;
     border-radius: 5px;
 }
-
 .submit-btn {
     width: 88px;
     font-size: 19px;
