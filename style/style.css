@@ -11,14 +11,14 @@
     margin-bottom: 128px;
 }
 
-h1 {
+.common-heading {
     text-align: center;
     font-size: 40px;
     color: #272727;
     font-weight: 800;
 }
 
-p {
+.common-paragraph {
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -42,7 +42,7 @@ p {
     padding: 112px 0px 105px;
 }
 
-.home-title h1 {
+.hade-line {
     color: #272727;
     font-size: 55px;
     font-weight: 800;
@@ -192,10 +192,7 @@ footer {
     padding: 100px;
 }
 
-footer p {
-    color: #c0c0c0e6;
-    font-size: 12px;
-}
+
 
 .footer-details h1 {
     color: #E55473;
@@ -205,4 +202,9 @@ footer p {
 
 .bg-shop {
     color: #ffffff;
+}
+.footer-paragraph{
+    color: #d3d3d3;
+    text-align: center;
+    font-size: 12px;
 }
